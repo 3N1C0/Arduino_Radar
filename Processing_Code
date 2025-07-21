@@ -220,7 +220,7 @@ void drawText() { // draws the texts on the screen
 
   textSize(40);
 
-  text("Simple Circuits ", width-width*0.875, height-height*0.0277);
+  text("Arduino Radar ", width-width*0.875, height-height*0.0277);
 
   text("Angle: " + iAngle +" °", width-width*0.48, height-height*0.0277);
 
