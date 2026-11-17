@@ -21,7 +21,7 @@ An ultrasonic radar. A servo sweeps an HC-SR04 distance sensor from 15Â° to 165Â
 
 1. Wire the parts as in `Wiring_Diagram.png`.
 2. Open `Arduino_Radar.ino` in the Arduino IDE and upload it.
-3. Open the sketch in `Processing_Code/` in Processing, set the serial port, and run it.
+3. Open the sketch in `Processing_Code/` in Processing, set the serial port, and run it. The port is hardcoded to a macOS name (`/dev/tty.usbmodem101`), so change it to your port.
 4. Press the button to start a sweep.
 
 ## Notes
